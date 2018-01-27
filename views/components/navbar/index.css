@@ -1,0 +1,29 @@
+.navbar{
+  color: white;
+  background: #1e5c81;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar h1{
+  font-weight: 400;
+  font-size: 22px;
+  color: white;
+  margin: 0;
+}
+.navbar__info{
+  border: 1px solid white;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  line-height: 25px;
+  text-align: center;
+}
+.navbar .fa-undo{
+  color: white;
+  padding: 5px;
+  background: #646464;
+  color: white;
+  border-radius: 50%;
+}

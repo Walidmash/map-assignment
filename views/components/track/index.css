@@ -1,0 +1,43 @@
+.track{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.track__details{
+  display: flex;
+}
+.track__logo{
+  height: 120px;
+}
+.track__more{
+  flex-grow: 1;
+}
+.track__steps{
+  padding-top: 25px;
+}
+.track__actions{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+.track__actions .track__cancel,.track__actions .track__call{
+  border: none;
+  font-weight: 600;
+}
+.track__actions .track__cancel{
+  background: #d30808;
+}
+.track__actions .track__cancel:hover, .track__actions .track__cancel:focus{
+  background: #a20808;
+}
+.track__actions .track__call{
+  background: #23b623;
+}
+.track__actions .track__call:hover, .track__actions .track__call:focus{
+  background: #195c19;
+}
+.track__map{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}

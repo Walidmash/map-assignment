@@ -1,0 +1,46 @@
+.home a{
+  text-decoration: none;
+  color: white;
+}
+.home{
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.home__services{
+  position: absolute;
+  top: calc(100vh - 80px);
+  width: 100%;
+  transition: 1s all;
+}
+.home__open{
+  top: 60px;
+}
+.home__selectServices:hover{
+  background: #3076a0;
+}
+.home__selectServices{
+  cursor: pointer;
+  background: #1e5c81;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 0;
+  width: 80%;
+  outline: none;
+}
+.home__servicesList{
+  background: #285c82c2;
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+  font-weight: bold;
+}
+.home__servicesList li{
+  padding: 10px 0;
+  cursor: pointer;
+  list-style: none;
+}
+.home__servicesList li:hover{
+  background: #285c828c;
+}

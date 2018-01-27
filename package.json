@@ -1,0 +1,46 @@
+{
+  "name": "MapAPI",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "start:watch": "NODE_ENV=development nodemon -q src/index.js",
+    "heroku-postbuild": "webpack -p --config webpack.config.js --progress",
+    "build": "webpack && babel src --out-dir lib --copy-files",
+    "dev:build": "webpack --watch",
+    "dev:start": "nodemon --exec babel-node ./src/"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^3.1.4",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "classnames": "^2.2.5",
+    "commander": "^2.12.2",
+    "connect-multiparty": "^2.1.0",
+    "css-loader": "^0.28.7",
+    "env2": "^2.2.0",
+    "express": "^4.16.1",
+    "express-handlebars": "^3.0.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-gmaps": "^1.7.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "style-loader": "^0.19.0",
+    "uuid": "^3.1.0",
+    "webpack": "^3.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
