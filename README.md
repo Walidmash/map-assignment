@@ -5,7 +5,7 @@
   - Google API
 
 ## How to run it:
-  - use this Link:https://git.heroku.com/map-assignment1.git
+  - use this Link:https://map-assignment1.herokuapp.com/
   ### Or
   - Clone the repo
   - Write in terminal
