@@ -1,9 +1,10 @@
 # map-assignment
-**Technologies:
+## Technologies:
   - Express.js
   - React/Redux
   - Google API
-**How to run it:
+
+## How to run it:
   - use this Link:https://git.heroku.com/map-assignment1.git
   Or
   - Clone the repo
