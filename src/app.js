@@ -2,6 +2,8 @@ const express = require('express');
 const path = require('path');
 const app = express();
 const server = require('http').Server(app);
+const compression = require('compression');
+app.use(compression());
 app.use(
   express.static(path.join(__dirname, '..', 'public'), { maxAge: '30d' }));
 
