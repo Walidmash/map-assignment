@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 
-import {
-  Steps,
-  Divider,
-  Rate,
-  Button,
-  Popconfirm
-} from 'antd';
+import Divider from 'antd/lib/divider';
+import Steps from 'antd/lib/steps';
+import Button from 'antd/lib/button';
+import Popconfirm from 'antd/lib/popconfirm' ;
+import Rate from 'antd/lib/rate';
 import Navbar from '../navbar';
 import TrackMap from './trackMap';
 import './index.css'
@@ -29,14 +27,14 @@ class Track extends Component {
         <Navbar title='Track Service' />
         <ul className='track__steps'>
           <Steps progressDot current={1}>
-            <Step title="Finished" />
+            <Step title="Pending" />
             <Step title="In Progress" />
-            <Step title="Waiting" />
+            <Step title="Finished" />
           </Steps>
         </ul>
         <Divider />
         <section className='track__details'>
-          <img className='track__logo' src='http://ovalion.com/img/logo-design-kerala.png' />
+          <img className='track__logo' src='images/logo-design-kerala.png' />
           <div className='track__more'>
             <h2> Mostafa Mostafa</h2>
             <span>
