@@ -5,7 +5,6 @@
   "scripts": {
     "start": "node ./src/index.js",
     "start:watch": "NODE_ENV=development nodemon -q src/index.js",
-    "heroku-postbuild": "webpack -p --config webpack.config.js --progress",
     "build": "webpack && babel src --out-dir lib --copy-files",
     "dev:build": "webpack --watch",
     "dev:start": "nodemon --exec babel-node ./src/"
